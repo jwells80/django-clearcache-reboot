@@ -30,4 +30,4 @@ jobs:
           poetry install
       - name: Test with tox
         run: |
-          poetry run tox -e 'django{22,30,31,32}'
+          poetry run tox
